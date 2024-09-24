@@ -1,0 +1,33 @@
+{
+  "name": "formiojs",
+  "version": "1.0.0",
+  "description": "Repository to learn formiojs",
+  "scripts": {
+    "serve": "npx webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cengizhanpece/formiojs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cengizhanpece/formiojs/issues"
+  },
+  "homepage": "https://github.com/cengizhanpece/formiojs#readme",
+  "dependencies": {
+    "@formio/js": "^5.0.0-rc.48",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
